@@ -1,0 +1,17 @@
+.book {
+  border: 2px solid grey;
+  display: flex;
+  flex: 0 0 33.3333%;
+  padding: 20px;
+}
+
+.book__cover {
+  max-width: 120px;
+  max-height: 120px;
+  margin-right: 20px;
+}
+
+.book__info {
+  display: flex;
+  flex-direction: column;
+}
